@@ -1,0 +1,20 @@
+.button-container {
+    flex: 1 1 auto;
+    text-align: center;
+  margin-top: 20px;
+    border: var(--button-border);
+    font-size: var(--button-text-size);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 40px;
+    text-transform: uppercase ;
+  }
+  
+  .button-container:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
